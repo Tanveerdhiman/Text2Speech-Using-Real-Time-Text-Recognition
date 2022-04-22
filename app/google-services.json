@@ -1,0 +1,148 @@
+{
+  "project_info": {
+    "project_number": "527875027402",
+    "firebase_url": "https://speed-reader-fb026.firebaseio.com",
+    "project_id": "speed-reader-fb026",
+    "storage_bucket": "speed-reader-fb026.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527875027402:android:e1ee61e256773eb3",
+        "android_client_info": {
+          "package_name": "com.example.android.camera2basic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527875027402-r98bqm04m41r7gt0u6a35qsuav4phic5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOVtMYUerY8T7k6OHRl8NpZ-xBVgZgfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527875027402:android:2a86b7af1cb6ed4b",
+        "android_client_info": {
+          "package_name": "com.example.camera2test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527875027402-12kn3blbgsk514r8ogou6rn8gcc861fj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.camera2test",
+            "certificate_hash": "a4bdae892a4e1cfe2bb131106f00ce92c0d992e8"
+          }
+        },
+        {
+          "client_id": "527875027402-r98bqm04m41r7gt0u6a35qsuav4phic5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOVtMYUerY8T7k6OHRl8NpZ-xBVgZgfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527875027402-r98bqm04m41r7gt0u6a35qsuav4phic5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527875027402:android:2c11c6429e0d53bd",
+        "android_client_info": {
+          "package_name": "com.example.tanveersingh.speedreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527875027402-r98bqm04m41r7gt0u6a35qsuav4phic5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOVtMYUerY8T7k6OHRl8NpZ-xBVgZgfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527875027402:android:a0b98f94b5150e76",
+        "android_client_info": {
+          "package_name": "com.example.tanveersingh.speedrunner2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527875027402-r98bqm04m41r7gt0u6a35qsuav4phic5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOVtMYUerY8T7k6OHRl8NpZ-xBVgZgfk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
