@@ -1,39 +1,22 @@
 # Text2Speech-Using-Real-Time-Text-Recognition
 
-Photo2Text - Photo2Text is an image recognition app which uses Optical Character Recognition (OCR) to detect text/ paragraphs from books and allows you to insert text into a document with a single tap on the desired paragraph.
+Text2Speech using Real Time Text Recognition – This app perform Real time Text Recognition operation on live video feed coming from device’s camera and as we tap on a specific line in the paragraph it starts reading entire paragraph from that specific line till the end of the page and draws a box over the Line / Word its reading.
 
-App Demonstration Video - https://youtu.be/hg_qsNGKSjc
+App Demonstration Video - https://youtu.be/5u8FR8G_6us
 
-Unlike existing Text Detection apps like Google Lens, Where we first have to manually open up the app, 
-Click an image, then manually select the desired paragraph, then copy the text and go back to the main document and paste it there,                                                                                                                               
-Which is quite a tedious process especially if you working with multiple pages and paragraphs and you often have to go back n forth between the document and 
-the Text Detection app.
+It utilizes device’s build in Text To Speech Engine to speak the text detected on the page back to us.
 
-On the other hand,
+Problem Statement - Often times whenever we are reading a book, we often struggle to concentrate on the topic especially if it’s something really boring and non-stimulating in nature and we find ourselves flipping through pages after pages only to come back to page 1 as we realize we haven’t assimilated the topic enough and we get stuck in this vicious cycle of re-reading topics again and again until we finally get really frustrated and leave the task all together.
 
-Photo2text works in conjunction with the device’s default input method (Keyboard), where we don’t have to open up any separate app, instead it opens up a small CameraView in the keyboard area itself where we can click an image of the desired paragraph and import the text straight into our document without going back n forth between different apps, Which save a lot of time.
+In that situation we often want someone to explain or readout the topic loud to us so that we can shut off all the mental noise and focus on the topic in hand,
+That’s why its often said that if you can’t focus on reading, Try reading out loud as it stimulates you mind and suppress all the mental noise going on in your head.
+Reading is especially a problem for people suffering from Dyslexia which is a learning disorder that involves difficulty reading due to problems identifying speech sounds and learning how they relate to letters and words.
 
-                                To use Photo2Text - We follow a 3 step process
-1.	Change the device’s input method to Photo2Text - We change the device’s default input method to Photo2Text by clicking on the Input Method Button at the bottom right in the device’s navigation bar.
-2.	Capture the desired paragraph / page by pressing Recognize Button - On changing input method one will see a small CameraView in the keyboard area itself and we press on the Recognize Button to capture an image of the desired text from which we want to extract paragraphs from.
-3.	Tap on the desired paragraphs / lines enclosed inside Red Boxes to insert Text into document - As soon as we press the recognize button, The app immediately detects whatever is on the page and it draws Red Boxes around Paragraphs or lines. 
+Solution – To overcome this problem I designed this app which reads out text loud to you and help you understand the topic better, My main vision with this app is to integrate it with Augmented Reality Smart glasses(or reading glasses in simpler terms) which one will wear while reading,
 
-To insert a paragraph into document, we just tap on a specific paragraph enclosed within red boxes and the tapped paragraph get inserted into the document.
-Utility - Photo2Text saves a lot of time and allows one to quickly insert text from a physical book or document into your own document. It’s especially useful for students as students often have to make assignments where they often need to copy text from various books and notes to complete their assignment, and traditional apps like Google Lens etc. make things a bit complicated as one need to constantly switch between the document and Text detection app which wastes a lot of time.
+The app will be integrated into the glasses and use the camera in the smart glasses to recognize the text written on the book and as the user taps on a line it start speaking that line back to user, which will help one concentrate better.
+One can also double tap on a specific word to find out its meaning and display relevant images or info or even 3d models in specific cases.
 
-And the best part is Its Completely Offline, You don’t need an internet connection to make the app work unlike existing apps like Google Lens where a  strong Internet connection is a major requirement.
+Read out aloud feature has been integrated in various reading apps for example - Microsoft’s Edge have Immersive or Reading Mode where the browser reads the book for you and you just listen to the book as its reading, Which helps shuts off the mental noise and concentrate better.
+Am trying to implement this on a larger scale where in future instead of using Mobile phones we will wear these Special glasses on our face and this app in particular will help us read and understand things better, Along with other features.
 
-Total Size - Very lightweight, The total size of the app is surprisingly just around 2-3 Mb, Which makes it very appealing for low end devices.
-
-Framework, API & Programming Language used - The app is created with Java in Android Studio IDE.
-I used Google ML Kit to implement the Text Detection Framework and used Camera2API to implement the Camera system. 
-
-Backstory - 
-The idea of the app came to my mind  back in 2019 when I was studying in 11th grade In high school and I was already working on a Text Detection Camera Based app,
-It was exam time and I had no of assignment to submit and I was having a lot of trouble manually typing text from books and the existing apps like Google Lens were not that great and required a very strong internet connection.
-
-As they say “Necessity Is The Mother of Invention” Out of frustration the idea of this app came to my mind and as I was already working on a similar app, 
-it was quite easy for me to implement the code, So I made the first prototype of the app in 10 days in May 2019 which only supported basic text input method,
-
-but I did not finished the app then as I got busy with other projects. After a year or so in 2021 I polished the app and made changes to it. 
-I never published it on PlayStore as I feel It still needs some work, Especially Cross Device Compatibility and I got busier with more important projects.
